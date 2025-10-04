@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>💗 🎀Happy Boyfriend's Day loveeeeeeeeeeeeeeeeeeee youuuuuuuuuuuuuuu 🎀💗</title>
+<meta charset="UTF-8">
+<style>
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #ffe0f0, #f0e0ff, #e0f7ff);
+    color: #444;
+    transition: background 1s ease;
+}
+h1, h2 {
+    text-shadow: 2px 2px #ffb6c1;
+}
+button, a.button {
+    padding:12px 30px;
+    margin:10px;
+    border-radius:30px;
+    font-size:16px;
+    border:none;
+    cursor:pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+button:hover, a.button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffb6c1;
+}
+.screen {
+    display:none;
+    padding:30px;
+    margin:20px auto;
+    border-radius:30px;
+    width:85%;
+    text-align:center;
+    border:5px dotted #ffb6c1;
+    background: rgba(255, 255, 255, 0.8);
+    animation: fadeIn 1s ease;
+}
+@keyframes fadeIn {
+    from {opacity:0; transform:translateY(20px);}
+    to {opacity:1; transform:translateY(0);}
+}
+#letter p {
+    font-size:1.2em;
+    line-height:1.6em;
+    animation: slideIn 2s ease;
+}
+@keyframes slideIn {
+    from {opacity:0; transform:translateX(-50px);}
+    to {opacity:1; transform:translateX(0);}
+}
+</style>
+</head>
+<body>
+
+<center>
+<p style="font-size:2em;"></p>
+<h1 style="font-size:2.5em;"> Happy BF's Day🎀💗</h1>
+<p style="font-size:1.2em;">Maar Khana Hai Kya???? 👉🏻👈🏻🎀💗</p>
+<hr style="width:60%; border:1px solid #ffbcd9;">
+</center>
+
+<!-- Landing Page -->
+<div id="landing" class="screen" style="display:block;">
+<h2>🌸 Start Here 🌸</h2>
+<button onclick="showScreen('quiz1')" style="background:#ffb6c1; color:white;">🎯 Treasure Hunt Quiz</button>
+<button onclick="showScreen('collage')" style="background:#a7c7e7; color:white;">📸 Collage</button>
+<button onclick="showScreen('edits')" style="background:#c7b8ea; color:white;">🎬 Edits</button>
+</div>
+
+<!-- Quiz Screens -->
+<div id="quiz1" class="screen">
+<h2>🎯 Q1: Who do u like the most? 👀</h2>
+<p>1) Diyaaaa 💗<br>2) agarbatti 🕯️<br>3) hello kitty 🐱<br>4) none of the above</p>
+<div id="q1result"></div>
+<button onclick="checkAnswer(1,'q1result','quiz2')">1</button>
+<button onclick="checkAnswer(2,'q1result','quiz1','wrong1')">2</button>
+<button onclick="checkAnswer(3,'q1result','quiz1','wrong1')">3</button>
+<button onclick="checkAnswer(4,'q1result','quiz1','wrong1')">4</button>
+</div>
+
+<div id="quiz2" class="screen">
+<h2>💭 Q2: Do I actually matter to u?</h2>
+<p>1) pagal hai kya?<br>2) ofc<br>3) marry me 💍<br>4) not so sure</p>
+<div id="q2result"></div>
+<button onclick="checkAnswer(1,'q2result','quiz1','wrong2')">1</button>
+<button onclick="checkAnswer(2,'q2result','quiz1','wrong2')">2</button>
+<button onclick="checkAnswer(3,'q2result','quiz3')">3</button>
+<button onclick="checkAnswer(4,'q2result','quiz1','wrong2')">4</button>
+</div>
+
+<div id="quiz3" class="screen">
+<h2>🩷 Q3: If we are in a fight, what will u do?</h2>
+<p>1) send me a vn saying I love u 🎧<br>2) argue back cuz why not 👾<br>3) tell me that I'm right<br>4) apologise</p>
+<div id="q3result"></div>
+<button onclick="checkAnswer(1,'q3result','quizpassed')">1</button>
+<button onclick="checkAnswer(2,'q3result','quiz1','wrong3')">2</button>
+<button onclick="checkAnswer(3,'q3result','quiz1','wrong3')">3</button>
+<button onclick="checkAnswer(4,'q3result','quiz1','wrong3')">4</button>
+</div>
+
+<!-- Quiz Passed -->
+<div id="quizpassed" class="screen">
+<h2>🎉 Yayayayaya! You passed! 😻💗💋</h2>
+<p>I loveeeee youuuuuuuu 💞👅👅👅👅</p>
+<button onclick="showScreen('letter')" style="background:#ffb6c1; color:white;">Next ➡️ View Letter 💌</button>
+</div>
+
+<!-- Letter -->
+<div id="letter" class="screen" style="border-color:#ff99cc;">
+<h2>💌 My Letter For You 💌</h2>
+<p>
+I just wanted to say how much you mean to me. I just don't wanna say "I love u" cuz those 3 words can't exactly describe how I feel. From being strangers to classmates to friends to situationship to dating — we really have come a long way and at any cost I really don't wanna lose u. I mean it.<br><br>
+Tbh at first when we started dating I still wasn't so sure abt u yk cuz I thought u would again end up hurting me but u really proved me wrong 😭👉🏻👈🏻. If u could ask me what my ideal day would be it would surely be abt spending an entire day with u 😭.<br><br>
+I just wanna say I'm really lucky and grateful to have u 😭💗. Tbh I don't really care abt our future or our past, what matters the most to me is the PRESENT and how we cherish every moment together 😭. Teko samjh ra na mai kya bolri 😭💢. I really fuckingggggg loveeeeeeeeeeeeee u 😭💋. And I hope in the future also u won't hurt me 💗
+</p>
+<button onclick="showScreen('collage')" style="background:#a7c7e7; color:white;">Next ➡️ Collage 💕</button>
+<button onclick="showScreen('edits')" style="background:#c7b8ea; color:white;">Next ➡️ Edits 💖</button>
+</div>
+
+<!-- Collage -->
+<div id="collage" class="screen" style="border-color:#a7c7e7;">
+<h2>📸 Our Collage</h2>
+<p>Click below to view our memories 💖</p>
+<a href="https://photos.app.goo.gl/hT637B2Unm1iVaDn6" target="_blank" class="button" style="background:#a7c7e7; color:white;">Open Collage 💕</a>
+</div>
+
+<!-- Edits -->
+<div id="edits" class="screen" style="border-color:#c7b8ea;">
+<h2>🎬 My Edits for You</h2>
+<p>Click below to see all the edits I made for you 💞</p>
+<a href="https://photos.app.goo.gl/zfyYmz2rWV6qCF3f9" target="_blank" class="button" style="background:#c7b8ea; color:white;">Watch Edits 💗</a>
+</div>
+
+<script>
+function showScreen(id){
+    let screens = ['landing','quiz1','quiz2','quiz3','quizpassed','letter','collage','edits'];
+    for(let s of screens){
+        document.getElementById(s).style.display = 'none';
+    }
+    document.getElementById(id).style.display = 'block';
+}
+
+function checkAnswer(ans, resultId, nextScreen, wrongScreen){
+    let remarks = "";
+    if(nextScreen==='quiz2' && ans===1){ remarks="Good boyyyyy!🎀💖"; }
+    else if(nextScreen==='quiz3' && ans===3){ remarks="So when's the wedding 👅"; }
+    else if(nextScreen==='quizpassed' && ans===1){ remarks="💗💗👅"; }
+    else if(nextScreen==='quizpassed' && ans===3){ remarks="💗💗👅"; }
+    else{ remarks="Wrong answer 👺🥀"; nextScreen='quiz1';}
+    document.getElementById(resultId).innerHTML="<p style='color:#ff3399; font-weight:bold; font-size:1.2em;'>"+remarks+"</p>";
+    setTimeout(function(){ showScreen(nextScreen); }, 1500);
+}
+</script>
+
+</body>
+</html>
